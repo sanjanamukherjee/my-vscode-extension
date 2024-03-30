@@ -38,6 +38,13 @@ export class SidebarProvider implements vscode.WebviewViewProvider {
           vscode.window.showErrorMessage(data.value);
           break;
         }
+        // case "onUpdateKeystrokeCount": {
+        //   if (!data.value) {
+        //     return;
+        //   }
+        //   vscode.window.showInformationMessage(data.value);
+        //   break;
+        // }
       }
     });
   }
